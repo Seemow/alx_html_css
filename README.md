@@ -16,4 +16,7 @@ This directory has 2 elements, an index.html and a folder called images.
        The <main></main> element contains 5 different sections : 
                 - Banner section.
                 - Quote section.
-                -
+                - Videos section.
+                - Membership section.
+                - FAQ section.
+      -images: a folder which contains all the images used in index.html
