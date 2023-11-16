@@ -1,4 +1,4 @@
-ALX, week 3 projects: HTML & CSS <br> 
+#ALX, week 3 projects: HTML & CSS <br> 
 
 ##<strong>html_basic:</strong><br> 
 This is the first project of the week where we get to know the common HTML structure or skeleton using HTML semantic elements:  <br> 
