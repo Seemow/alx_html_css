@@ -2,9 +2,9 @@ ALX, week 3 projects: HTML & CSS <br>
 
 html_basic: <br> 
 This is the first project of the week where we get to know the common HTML structure or skeleton using HTML semantic elements:  <br> 
-      -<header></header>: Which usually contains a logo and the navigation bar. Located at the very top of the web page. <br> 
-      -<main></main>: This is reserved for the main content of the website, it can contain everything from text to images, videos, hyper links...etc <br> 
-      -<footer></footer>: is the last semantic element which contains information such as copyright notices, links to relevant resources, authorship details, or any content that belongs to the bottom part of the page. <br> 
+      -header: Which usually contains a logo and the navigation bar. Located at the very top of the web page. <br> 
+      -main: This is reserved for the main content of the website, it can contain everything from text to images, videos, hyper links...etc <br> 
+      -footer: is the last semantic element which contains information such as copyright notices, links to relevant resources, authorship details, or any content that belongs to the bottom part of the page. <br> 
 This folder contains 3 different wepages :  <br> 
       -base_index.html: showcase of an example of HTML structure. <br> 
       -tweets.html: contains an embeded tweet from twitter. <br> 
