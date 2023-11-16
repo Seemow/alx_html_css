@@ -1,6 +1,6 @@
 ALX, week 3 projects: HTML & CSS <br> 
 
-html_basic: <br> 
+<strong>html_basic:</strong> <br> 
 This is the first project of the week where we get to know the common HTML structure or skeleton using HTML semantic elements:  <br> 
       -header: Which usually contains a logo and the navigation bar. Located at the very top of the web page. <br> 
       -main: This is reserved for the main content of the website, it can contain everything from text to images, videos, hyper links...etc <br> 
@@ -11,7 +11,7 @@ This folder contains 3 different wepages :  <br>
       -tweets.html: contains an embeded tweet from twitter. <br> 
       - index.html: contains slightly more advanced html structure ( Clickable image, paragraphs, links,table...etc) <br> 
        <br> 
-html_advanced: <br> 
+<strong>html_advanced:</strong> <br> 
 This directory has 2 elements, an index.html and a folder called images. <br> 
       -index.html: this webpage contains a pure advanced HTML code for a website about "learning", its also built with HTML semantic elements, with different sections and blocks containing headings, text, images. <br> 
        The <main></main> element contains 5 different sections :  <br> 
