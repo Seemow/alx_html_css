@@ -20,5 +20,6 @@ This directory has 2 elements, an index.html and a folder called images.
                 - Membership section.
                 - FAQ section.
       -images: a folder which contains all the images used in index.html
+![image](https://github.com/Seemow/alx_html_css/assets/129432903/8001bd70-3515-41c2-b27b-e15a30848078)
 
 ![Screenshot 2023-11-16 125917](https://github.com/Seemow/alx_html_css/assets/129432903/baa79fc4-d3d3-4534-a64a-c34d201a2260)
