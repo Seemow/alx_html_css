@@ -1,6 +1,6 @@
 ALX, week 3 projects: HTML & CSS <br> 
 
-<strong>html_basic:</strong><br> 
+<u><strong>html_basic:</strong></u><br> 
 This is the first project of the week where we get to know the common HTML structure or skeleton using HTML semantic elements:  <br> 
       -header: Which usually contains a logo and the navigation bar. Located at the very top of the web page. <br> 
       -main: This is reserved for the main content of the website, it can contain everything from text to images, videos, hyper links...etc <br> 
