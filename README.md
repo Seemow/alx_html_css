@@ -14,7 +14,7 @@ This folder contains 3 different wepages :  <br>
 <strong>html_advanced:</strong><br> 
 This directory has 2 elements, an index.html and a folder called images. <br> 
       -index.html: this webpage contains a pure advanced HTML code for a website about "learning", its also built with HTML semantic elements, with different sections and blocks containing headings, text, images. <br> 
-       The <main></main> element contains 5 different sections :  <br> 
+       The main element contains 5 different sections :  <br> 
                 - Banner section. <br> 
                 - Quote section. <br> 
                 - Videos section. <br> 
