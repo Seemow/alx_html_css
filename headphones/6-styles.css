@@ -94,7 +94,7 @@ a:hover, a:active {
 .header .logo{
     width: 60%;
 }
-.header-content .logo img{
+.logo img{
     width: 161px;
 }
 .header-content .nav-menu {
@@ -268,9 +268,6 @@ a:hover, a:active {
         flex-wrap: nowrap;
     }
 }
-.what-we-do .font-icons-containter div {
-
-}
 .what-we-do .font-icons-containter div p{
     padding: 0 20px;
     width: 90%;
@@ -323,12 +320,11 @@ a:hover, a:active {
     }
 }
 .hero-content2 .pentagon {
-    width: 150px;
-    height: 150px;
-    height: 190px;
-    background-image: url(images/pentagone.png);
-    background-size: 150px;
-    background-repeat: no-repeat;
+    position: relative;
+	width: 157.5px;
+	height: 150px;
+	background: var(--link-hover-active);
+	clip-path: polygon( 50% 0, 100% 38%, 81% 100%, 19% 100%, 0 38%);
     text-align: center;
 }
 .our-results .hero-content2 article{
@@ -360,4 +356,58 @@ a:hover, a:active {
 .pentagonsflex .pentagon p {
     margin-top: -7px;
     color: var(--color-white);
+}
+
+/* Contact us */
+.contact-us {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.contact-us .form {
+    text-align: center;
+}
+.contact-us h2 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+input[type="text"] {
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 30%;
+    font-size: 1.8rem;
+}
+@media (max-width: 480px) {
+    input[type="text"] {
+        width: 50%;
+    }
+}
+input[type="text"]:active {
+    border: none;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #071629;
+    padding: 60px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+@media (max-width: 480px) {
+    .footer-content {
+        flex-direction: column;
+        align-content: space-between;
+    }
+}
+.socials {
+    color: var(--color-white);
+    font-size: 3rem;
+}
+footer p{
+    color: gray;
 }

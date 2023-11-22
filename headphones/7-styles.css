@@ -94,7 +94,7 @@ a:hover, a:active {
 .header .logo{
     width: 60%;
 }
-.header-content .logo img{
+.logo img{
     width: 161px;
 }
 .header-content .nav-menu {
@@ -361,3 +361,102 @@ a:hover, a:active {
     margin-top: -7px;
     color: var(--color-white);
 }
+
+/* Contact us */
+.contact-us {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.contact-us .form {
+    text-align: center;
+}
+.contact-us h2 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+input[type="text"] {
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 30%;
+    font-size: 1.8rem;
+}
+@media (max-width: 480px) {
+    input[type="text"] {
+        width: 50%;
+    }
+}
+input[type="text"]:active {
+    border: none;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #071629;
+    padding: 60px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+@media (max-width: 480px) {
+    .footer-content {
+        flex-direction: column;
+        align-content: space-between;
+    }
+}
+.socials {
+    color: var(--color-white);
+    font-size: 3rem;
+}
+footer p{
+    color: gray;
+}
+
+/* Animations */
+@keyframes rotate {
+    0% {
+        transform: rotateY(45deg);
+      }
+      50% {
+        transform: rotateY(90deg);
+      }
+      100% {
+        transform: rotateY(0deg);
+      }
+  }
+  @keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+      }
+  }
+  .what-we-do:hover .wrapper2 h2, .our-results:hover h2,.our-results:hover h4, .our-results:hover p {
+    animation: scale 1s ease-in-out 0s;
+  }
+  .what-we-do:hover .wrapper2 p, .what-we-do:hover .wrapper2 h4, .our-results:hover .pentagon {
+    animation: bounce 3s infinite 0s;
+  }
+ 
